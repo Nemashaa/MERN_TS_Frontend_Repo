@@ -1,0 +1,140 @@
+/* General Dashboard Page Styling */
+.dashboard-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 60px;
+}
+
+.dashboard-page h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.dashboard-page h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Add Todo Section Styling */
+.add-task {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+/* Update Todo Section Styling */
+.update-task {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.update-task input {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.update-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.update-btn:hover {
+  background-color: #fb8c00;
+}
+
+/* Refresh Button Styling */
+.refresh-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+  color: #000000;
+}
+
+.dashboard-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.dashboard-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.dashboard-table tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}

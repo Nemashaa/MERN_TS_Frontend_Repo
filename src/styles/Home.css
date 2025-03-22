@@ -1,0 +1,14 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Subtract Navbar height */
+  width: 100vw; /* Full viewport width */
+  background-color: #ffffff; /* White background for the page */
+  margin: 0; /* Remove any default margin */
+}
+
+.home-content {
+  text-align: center; /* Center-align text inside the content */
+  color: #000000; /* Set text color to black */
+}

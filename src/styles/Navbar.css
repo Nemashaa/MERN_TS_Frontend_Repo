@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  background-color: #343a40; /* Dark gray color for the Navbar container */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px;
+  position: fixed; /* Fix the Navbar at the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure Navbar is above other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the Navbar */
+}
+
+.navbar .logo {
+  position: absolute; /* Keep the logo on the left */
+  left: 20px;
+  font-size: 22px; /* Slightly larger font size for the logo */
+  font-weight: bold;
+  color: #ffffff; /* White text color for the logo */
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px; /* Add more spacing between the links */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar .nav-link {
+  color: #ffffff; /* White text color */
+  padding: 12px 25px; /* Increase padding for larger width */
+  background-color: #007bff; /* Blue background for the rectangle boxes */
+  border: 1px solid #0056b3; /* Darker blue border */
+  border-radius: 8px; /* Slightly more rounded corners */
+  font-size: 16px; /* Larger font size for the text */
+  font-weight: bold;
+  text-align: center;
+  display: flex; /* Use flexbox to center the text */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  white-space: nowrap;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #ffffff; /* Keep text color white on hover */
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 60px; /* Adjust for fixed Navbar height */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center; /* Center the links for smaller screens */
+    padding: 10px;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .navbar .nav-link {
+    width: 100%;
+    text-align: center; /* Center text for smaller screens */
+    padding: 12px;
+  }
+}
